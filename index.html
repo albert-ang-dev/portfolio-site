@@ -3,234 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALBERT ANG DEV</title>
+    <title>WEBVERSE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!-- Hamburger button (top right) -->
-    <button class="hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#navMenu" aria-controls="navMenu" aria-label="Open navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
 
-    <!-- Hero -->
-    <main class="hero">
-        <h1 class="hero-title">&lt; ALBERT &gt;</h1>
-        <p class="hero-text">
-            I&rsquo;m Albert I build websites for local businesses. Clean, fast,
-            and professional websites that help your business get found online
-            and turn visitors into customers.
-        </p>
-        <div class="hero-actions">
-            <a href="#contact" class="btn-pill">CONTACT ME</a>
-            <a href="#work" class="btn-pill">MY WORK</a>
-        </div>
-    </main>
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="container-fluid px-4 px-md-5 py-3">
+                <a class="navbar-brand brand" href="#">WEBVERSE</a>
 
-    <!-- About Me -->
-    <section id="about" class="about">
-        <div class="about-inner">
-            <h2 class="section-title">&lt; ABOUT ME &gt;</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>
-                        I&rsquo;m Albert, a web developer based in New York with a
-                        passion for building websites that actually work for your
-                        business &mdash; not just look good.
-                    </p>
-                    <p>
-                        I specialize in working with small local businesses who need
-                        a real online presence without the big agency price tag.
-                        Whether you&rsquo;re starting from scratch or your current
-                        site is overdue for an upgrade, I&rsquo;ll handle everything
-                        from design to launch so you can focus on running your
-                        business.
-                    </p>
-                    <p>
-                        I&rsquo;m also a firm believer that there&rsquo;s no need to
-                        reinvent the wheel. Great website templates already exist
-                        &mdash; professionally designed, battle-tested, and ready to
-                        go. My job is to take those foundations and customize them to
-                        fit your brand, your content, and your goals. You get a
-                        great-looking site faster, at a lower cost, without
-                        sacrificing quality.
-                    </p>
-                    <p>
-                        I build with modern tools like HTML, CSS, JavaScript, React,
-                        and WordPress &mdash; choosing whatever fits your needs and
-                        budget best.
-                    </p>
-                </div>
-                <ul class="about-skills">
-                    <li>Responsive Web Design</li>
-                    <li>HTML, CSS &amp; JavaScript</li>
-                    <li>Bootstrap 5</li>
-                    <li>SEO &amp; Performance</li>
-                    <li>Ongoing Support</li>
-                </ul>
+                <button class="hamburger" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navMenu" aria-controls="navMenu" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-        </div>
-    </section>
+        </nav>
+    </header>
 
-    <!-- Services -->
-    <section id="services" class="services">
-        <div class="services-inner">
-            <p class="section-eyebrow">SERVICES</p>
-            <h2 class="section-title">&lt; WHAT I CAN DO FOR YOU &gt;</h2>
-            <div class="services-grid">
-                <article class="service-card">
-                    <span class="service-num">01</span>
-                    <h3 class="service-title">Custom Website Design &amp; Development</h3>
-                    <p class="service-text">
-                        A hand-coded website built specifically for your business.
-                        Fast, mobile-friendly, and designed to make a great first
-                        impression.
-                    </p>
-                </article>
-                <article class="service-card">
-                    <span class="service-num">02</span>
-                    <h3 class="service-title">WordPress Websites</h3>
-                    <p class="service-text">
-                        Easy-to-manage WordPress sites so you can update your own
-                        content without needing a developer every time something
-                        changes.
-                    </p>
-                </article>
-                <article class="service-card">
-                    <span class="service-num">03</span>
-                    <h3 class="service-title">Full-Stack Web Development</h3>
-                    <p class="service-text">
-                        Need something more powerful &mdash; a booking system,
-                        customer portal, or custom feature? I build full
-                        front-to-back web solutions tailored to your needs.
-                    </p>
-                </article>
-                <article class="service-card">
-                    <span class="service-num">04</span>
-                    <h3 class="service-title">Website Redesigns</h3>
-                    <p class="service-text">
-                        Got an outdated site that&rsquo;s hurting more than helping?
-                        I&rsquo;ll modernize it while keeping what makes your
-                        business unique.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="work" class="projects">
-        <div class="projects-inner">
-            <p class="section-eyebrow">MY WORK</p>
-            <h2 class="section-title">&lt; FEATURED PROJECTS &gt;</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-thumb" data-label="01"></div>
-                    <div class="project-body">
-                        <h3 class="project-title">Bella Cucina</h3>
-                        <p class="project-text">
-                            A modern, mobile-friendly website for a local Italian
-                            restaurant, complete with online menu and reservations.
-                        </p>
-                        <div class="project-tags">
-                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                        </div>
-                        <a href="#" class="project-link">View Project &rarr;</a>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb" data-label="02"></div>
-                    <div class="project-body">
-                        <h3 class="project-title">Summit Fitness</h3>
-                        <p class="project-text">
-                            A bold landing page for a boutique gym, built to convert
-                            visitors into trial-class sign-ups.
-                        </p>
-                        <div class="project-tags">
-                            <span>React</span><span>CSS</span>
-                        </div>
-                        <a href="#" class="project-link">View Project &rarr;</a>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb" data-label="03"></div>
-                    <div class="project-body">
-                        <h3 class="project-title">Maple &amp; Co. Salon</h3>
-                        <p class="project-text">
-                            A WordPress site with an easy-to-update gallery and an
-                            integrated online booking system.
-                        </p>
-                        <div class="project-tags">
-                            <span>WordPress</span><span>PHP</span>
-                        </div>
-                        <a href="#" class="project-link">View Project &rarr;</a>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb" data-label="04"></div>
-                    <div class="project-body">
-                        <h3 class="project-title">GreenLeaf Landscaping</h3>
-                        <p class="project-text">
-                            A clean portfolio site showcasing past work, with a quote
-                            request form that lands straight in the owner&rsquo;s inbox.
-                        </p>
-                        <div class="project-tags">
-                            <span>HTML</span><span>Bootstrap</span>
-                        </div>
-                        <a href="#" class="project-link">View Project &rarr;</a>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb" data-label="05"></div>
-                    <div class="project-body">
-                        <h3 class="project-title">Harbor Coffee Co.</h3>
-                        <p class="project-text">
-                            An e-commerce storefront for a local roastery, with a
-                            subscription checkout for their monthly coffee club.
-                        </p>
-                        <div class="project-tags">
-                            <span>React</span><span>Node.js</span><span>Stripe</span>
-                        </div>
-                        <a href="#" class="project-link">View Project &rarr;</a>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-thumb" data-label="06"></div>
-                    <div class="project-body">
-                        <h3 class="project-title">Dr. Lane Dental</h3>
-                        <p class="project-text">
-                            A full redesign of an outdated practice website, with a
-                            patient portal and appointment scheduling.
-                        </p>
-                        <div class="project-tags">
-                            <span>Full-Stack</span><span>React</span><span>Node.js</span>
-                        </div>
-                        <a href="#" class="project-link">View Project &rarr;</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Right-hand side navigation -->
-    <div class="offcanvas offcanvas-end nav-offcanvas" tabindex="-1" id="navMenu" aria-labelledby="navMenuLabel">
+    <!-- Right-side nav panel -->
+    <div class="offcanvas offcanvas-end nav-panel" tabindex="-1" id="navMenu" aria-labelledby="navMenuLabel">
         <div class="offcanvas-header">
-            <h2 class="offcanvas-title" id="navMenuLabel">&lt; MENU &gt;</h2>
+            <span class="offcanvas-title brand" id="navMenuLabel">WEBVERSE</span>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <nav class="nav-links">
-                <a href="#home" data-bs-dismiss="offcanvas">HOME</a>
-                <a href="#work" data-bs-dismiss="offcanvas">MY WORK</a>
-                <a href="#about" data-bs-dismiss="offcanvas">ABOUT</a>
-                <a href="#contact" data-bs-dismiss="offcanvas">CONTACT ME</a>
-            </nav>
+            <ul class="nav-list">
+                <li><a href="#home" data-bs-dismiss="offcanvas">Home</a></li>
+                <li><a href="#about" data-bs-dismiss="offcanvas">About</a></li>
+                <li><a href="#work" data-bs-dismiss="offcanvas">Our Work</a></li>
+                <li><a href="#services" data-bs-dismiss="offcanvas">Services</a></li>
+                <li><a href="#contact" data-bs-dismiss="offcanvas">Contact</a></li>
+            </ul>
         </div>
     </div>
+
+    <!-- Hero -->
+    <main class="hero">
+        <div class="container text-center">
+            <h1 class="hero-title">WEBVERSE</h1>
+            <p class="hero-subtitle">AI knows websites. We know your business.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-pill">LETS CHAT</a>
+                <a href="#work" class="btn btn-pill">OUR WORK</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container-fluid px-4 px-md-5">
+            <h2 class="about-title">About WEBVERSE</h2>
+            <div class="row gx-5 gy-4">
+                <div class="col-lg-3">
+                    <img src="images/founder.jpg" alt="Albert, founder of Webverse"
+                         class="about-img img-fluid">
+                </div>
+                <div class="col-lg-9">
+                    <div class="about-copy">
+                        <p>Webverse was born from a simple observation — the internet is filling up
+                            with websites that look the same, say the same things, and get the same
+                            results: nothing</p>
+
+                        <p>AI can build a website in minutes. But AI doesn't know that your bakery has
+                            been family-owned for 20 years, that your gym has a community unlike any
+                            other, or that your barbershop is the heartbeat of the neighborhood. It just
+                            fills a template with words and calls it done. Generic in, generic out.</p>
+
+                        <p>At Webverse, we don't believe in reinventing the wheel either — there are
+                            already proven, battle-tested website designs that convert visitors into
+                            customers. What we do is take what already works and build it around your
+                            story, your customers, and your goals. The result is a site that feels
+                            familiar enough to trust and specific enough to stand out.</p>
+
+                        <p>I'm Albert, the founder of Webverse. Every website we deliver goes through me
+                            personally — no outsourcing, no AI generation. Just a real conversation about
+                            your business, followed by honest, clean work that gets it online and gets it
+                            working.</p>
+
+                        <p>Your business isn't generic. Your website shouldn't be either.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
